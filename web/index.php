@@ -39,5 +39,5 @@ include_once ROOT_DIR.'core/autoload.php';
 
 
 $router  = new Core\Routers\Router(ROOT_DIR.'config.php');
-// deBug('end', 'end', 0, 0, 1, __FILE__, __LINE__, __METHOD__); // [debugBacktrace], dump, echo, stop
+deBug('end', 'end', 0, 0, 1, __FILE__, __LINE__, __METHOD__); // [debugBacktrace], dump, echo, stop
 $router->run();
