@@ -1,6 +1,7 @@
 <?php
 
-return $routes = [  '/' => 'Home/start',
+return $routes = [
+                    '/' => 'Home/start',
                     '/home' => 'Home/index',
                     '/about' => 'Home/about',
                     '/404' => 'Home/pageNotFound',
@@ -19,4 +20,4 @@ return $routes = [  '/' => 'Home/start',
                     '/api/sendmsg' => 'Api/sendMsg',
                     '/api/getmsg' => 'Api/getMSg',
                     '/api/sendpost' => 'Api/sendPost'
-                    ];
+               ];
